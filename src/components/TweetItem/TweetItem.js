@@ -75,7 +75,7 @@ const TweetItem = ({ user }) => {
       <Line>
         <Circle>
           <Background>
-            <Avatar src={avatar} />
+            <Avatar src={avatar} alt={userName} />
           </Background>
         </Circle>
       </Line>
