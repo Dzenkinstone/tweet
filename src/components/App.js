@@ -15,6 +15,7 @@ export const App = () => {
       <Route path="/" element={<SharedLayout />}>
         <Route index element={<HomePage />} />
         <Route path="/tweets" element={<TweetPage />} />
+        <Route path="*" element={<ErrorPage />} />
       </Route>
     </Routes>
   );
