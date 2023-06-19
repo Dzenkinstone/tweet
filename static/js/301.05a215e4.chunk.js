@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktweet=self.webpackChunktweet||[]).push([[301],{301:function(e,n,t){t.r(n),t.d(n,{default:function(){return l}});var r,u=t(168),c=t(686).Z.h1(r||(r=(0,u.Z)(["\n  margin-top: 40px;\n  text-align: center;\n"]))),i=t(184),a=function(){return(0,i.jsx)(c,{children:"Wellcome to my Page"})},l=function(){return(0,i.jsx)(i.Fragment,{children:(0,i.jsx)(a,{})})}}}]);
+//# sourceMappingURL=301.05a215e4.chunk.js.map
