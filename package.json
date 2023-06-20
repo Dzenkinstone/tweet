@@ -1,7 +1,7 @@
 {
   "name": "tweet",
   "version": "0.1.0",
-  "homepage": "https://Dzenkinstone.github.io/tweet",
+  "homepage": "https://Dzenkinstone.github.io/tweet/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
