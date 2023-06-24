@@ -11,7 +11,7 @@ const HomePage = lazy(() => import("./pages/HomePage"));
 
 export const App = () => {
   return (
-    <Routes basename="/tweet">
+    <Routes>
       <Route path="/" element={<SharedLayout />}>
         <Route index element={<HomePage />} />
         <Route path="/tweets" element={<TweetPage />} />
