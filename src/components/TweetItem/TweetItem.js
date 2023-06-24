@@ -15,6 +15,7 @@ import {
   Pictures,
 } from "./TweetItem.styled";
 import { updateUsers } from "../../api";
+import convertNumber from "../../utils/converNumber";
 
 const TweetItem = ({ user }) => {
   const {
@@ -80,8 +81,8 @@ const TweetItem = ({ user }) => {
         </Circle>
       </Line>
       <Description>
-        <Text>{tweets} TWEETS</Text>
-        <Text>{followers} FOLLOWERS</Text>
+        <Text>{convertNumber(tweets)} TWEETS</Text>
+        <Text>{convertNumber(followers)} FOLLOWERS</Text>
       </Description>
       <Button following={following} onClick={handleChange}>
         <ButtonText>{following ? "FOLLOWING" : "FOLLOW"}</ButtonText>
